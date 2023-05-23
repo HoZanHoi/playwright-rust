@@ -124,6 +124,7 @@ pub(crate) mod stream;
 pub(crate) mod video;
 pub(crate) mod websocket;
 pub(crate) mod worker;
+pub(crate) mod fetch;
 
 //_accessibility.py
 //_api_structures.py

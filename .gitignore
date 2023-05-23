@@ -6,3 +6,4 @@ tarpaulin-report.html
 /playwright-rust-randall.iml
 /scripts/scripts.iml
 /src/api/generated.rs
+/.cargo

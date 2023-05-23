@@ -294,3 +294,12 @@ pub struct ResponseTiming {
     /// Time immediately after the browser starts requesting the resource from the server, cache, or local resource. The value\nis given in milliseconds relative to `startTime`, -1 if not available.
     pub response_start: f64
 }
+
+#[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
+pub(crate) struct ApiRequest {
+
+}
+
+#[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
+pub(crate) struct ApiResponse {
+}
